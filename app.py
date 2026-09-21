@@ -17,7 +17,7 @@ client = OpenAI(
 
 WORKSPACE_DIR = os.path.abspath("./workspace")
 os.makedirs(WORKSPACE_DIR, exist_ok=True)
-MODEL_NAME = "llama-3.3-70b-versatile" 
+MODEL_NAME = "openai/gpt-oss-20b" 
 
 SYSTEM_PROMPT = """You are an autonomous AI software engineer. Your goal is to solve the user's task.
 You have access to two capabilities:
