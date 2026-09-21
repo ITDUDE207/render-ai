@@ -11,7 +11,7 @@ if not os.getenv("GROQ_API_KEY"):
     st.stop()
 
 client = OpenAI(
-    base_url="https://groq.com",
+    base_url="https://api.groq.com/openai/v1",
     api_key=os.getenv("GROQ_API_KEY")
 )
 
